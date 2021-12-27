@@ -48,16 +48,18 @@ Students:
 <a name="create"></a>
 #### i. Create a new database called high-school with the following tables in the new database
 #
-##### 📝 TO DO: 
-- 1.- Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be 
-   informed or not. (3 points) 
-	   
-- 2.- Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints 
-   primary keys, foreign keys, etc. (3 points)
+📝 **TO DO:** 
+- 1.- Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not. (3 points) 
+- 2.- Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc. (3 points)
 
-&nbsp;
-**⚠️ WARNING:** 
+
+⚠️ **WARNING:** 
 - All the operations must be done in the creation of the tables.
+
+
+👀 **Remember to not forget!**
+- Properly format and document the code.
+
 
 &nbsp;
 <details>
@@ -107,20 +109,18 @@ Students:
 - End date
 - Start time
 - End time
-
+	
 &nbsp;
+	
 **REMARKS**
-    - Two groups of the same course cannot coincide in the same shift.
-    - No course has a higher price of more than € 500 or more than 2000 hours.
-    - Each student can only be enrolled in one group.
-    - There may be single-day courses.
-    - No teacher can teach more than 3 courses.
+- Two groups of the same course cannot coincide in the same shift.
+- No course has a higher price of more than € 500 or more than 2000 hours.
+- Each student can only be enrolled in one group.
+- There may be single-day courses.
+- No teacher can teach more than 3 courses.
+
 
 </details>
-
-&nbsp;
-**👀 Remember to not forget!**
-- Properly format and document the code.
 
 &nbsp;
 &nbsp;
@@ -128,11 +128,16 @@ Students:
 #### ii. Updating the tables.
 #
 
-&nbsp;
+
 ⚠️ **WARNING:** 
 - Neither of these operations can be done in the creation of the tables.
- 
+
+
+👀 **Remember to not forget!**
+- Properly format and document the code.		  
+
 &nbsp;
+
 <details>
     <summary>CLICK ME TO SEE THE REQUESTED MODIFICATIONS</summary>
      	
@@ -146,10 +151,7 @@ Students:
 6. Delete a CHECK from a table and recreate it.
 7. Rename the group's table by class.
 8. Deletes the teacher's table.
-	
+
 </details>
 
-&nbsp;
-**👀 Remember to not forget!**
-- Properly format and document the code.		 
  
