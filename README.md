@@ -13,6 +13,7 @@
     2. [Updating the tables to create the foreign key constrains.](#alter)
 	
 
+&nbsp;
 <a name="general-info"></a>
 ### 1. General Info
 ***
@@ -21,6 +22,7 @@
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems*
 
 
+&nbsp;
 <a name="technologies"></a>
 ### 2. Technologies
 ***
@@ -29,6 +31,7 @@ A list of technologies used within the project:
     - SQL-DDL: Data Definition Language 
 
 
+&nbsp;
 <a name="collaboration"></a>
 ### 3. Collaboration
 ***
@@ -38,69 +41,74 @@ Students:
 *IrvingVqz.*
 
 
+&nbsp;
 <a name="problem-definition"></a>
 ### 4. Problem definition
 ***
 <a name="create"></a>
 #### i. Create a new database called high-school with the following tables in the new database
-
+#
 ##### 📝 TO DO: 
-1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be 
+- 1.- Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be 
    informed or not. (3 points) 
 	   
-2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints 
+- 2.- Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints 
    primary keys, foreign keys, etc. (3 points)
 
-
+&nbsp;
 **⚠️ WARNING:** 
 - All the operations must be done in the creation of the tables.
 
-
+&nbsp;
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
-	
+&nbsp;	
 *STUDENT*
-    - The student's academic record number, which in addition to being unique and identifying the student, is composed of 4 letters and 3 digits.        
-    - The group to which the student belongs.        
-    - The student's NIF.        
-    - Name.
-    - Surname.
-    - Date of birth. Please note that no student under the age of 16 can be enrolled.
-    - Address
-    - The student's phone number (assume it only has one number) Will not be prefixed +34
-    - Gender, which will be F for women and M for men. Use a constraint to define the set of values that this field can take.
+	
+- The student's academic record number, which in addition to being unique and identifying the student, is composed of 4 letters and 3 digits.        
+- The group to which the student belongs.        
+- The student's NIF.        
+- Name.
+- Surname.
+- Date of birth. Please note that no student under the age of 16 can be enrolled.
+- Address
+- The student's phone number (assume it only has one number) Will not be prefixed +34
+- Gender, which will be F for women and M for men. Use a constraint to define the set of values that this field can take.
 
 
 *TEACHER*
-    - The official number: Uniquely identifies each one and is formed with 4 digits and 3 letters.
-    - The teacher's name
-    - The teacher's last name
-    - The teacher's address
-    - The teacher's phone (assume you only have one number). Does not have the prefix +34
-    - Field that specifies whether the teacher is interim or not. The vast majority are inter-im.
-    - Maximum number of courses that a teacher can teach.
+	
+- The official number: Uniquely identifies each one and is formed with 4 digits and 3 letters.
+- The teacher's name
+- The teacher's last name
+- The teacher's address
+- The teacher's phone (assume you only have one number). Does not have the prefix +34
+- Field that specifies whether the teacher is interim or not. The vast majority are inter-im.
+- Maximum number of courses that a teacher can teach.
    
     
 *COURSE*
-    - Field that identifies the course, consists of 4 letters
-    - Course description
-    - Hours of duration
-    - Course price
-    
+	
+- Field that identifies the course, consists of 4 letters
+- Course description
+- Hours of duration
+- Course price
+ 
     
 *GROUP*
-    - Field that identifies the group, consists of 4 uppercase letters, a number and a low-ercase letter.
-    - Description of the group
-    - Course
-    - Teacher
-    - Shift, it can be morning or afternoon. Do not use a constraint to define the set of val-ues that this field can take.
-    - Start date
-    - End date
-    - Start time
-    - End time
+	
+- Field that identifies the group, consists of 4 uppercase letters, a number and a low-ercase letter.
+- Description of the group
+- Course
+- Teacher
+- Shift, it can be morning or afternoon. Do not use a constraint to define the set of val-ues that this field can take.
+- Start date
+- End date
+- Start time
+- End time
 
-
+&nbsp;
 **REMARKS**
     - Two groups of the same course cannot coincide in the same shift.
     - No course has a higher price of more than € 500 or more than 2000 hours.
@@ -110,22 +118,25 @@ Students:
 
 </details>
 
-
+&nbsp;
 **👀 Remember to not forget!**
 - Properly format and document the code.
 
-
+&nbsp;
+&nbsp;
 <a name="alter"></a>
 #### ii. Updating the tables.
+#
 
-
-⚠️ **WARNING:** Neither of these operations can be done in the creation of the tables.
+&nbsp;
+⚠️ **WARNING:** 
+- Neither of these operations can be done in the creation of the tables.
  
- 
+&nbsp;
 <details>
     <summary>CLICK ME TO SEE THE REQUESTED MODIFICATIONS</summary>
-     
-		
+     	
+&nbsp;	
 ** (0.5 point each) **
 1. Clears the primary key from the teacher's table. What do you have to do before?
 2. Create a primary key in teachers that is the first and last name.
@@ -135,9 +146,10 @@ Students:
 6. Delete a CHECK from a table and recreate it.
 7. Rename the group's table by class.
 8. Deletes the teacher's table.
+	
 </details>
 
-
+&nbsp;
 **👀 Remember to not forget!**
 - Properly format and document the code.		 
  
