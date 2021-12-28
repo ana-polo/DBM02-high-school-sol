@@ -65,7 +65,8 @@ Students:
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
-&nbsp;	
+<br />
+	
 *STUDENT*
 	
 - The student's academic record number, which in addition to being unique and identifying the student, is composed of 4 letters and 3 digits.        
@@ -110,7 +111,7 @@ Students:
 - Start time
 - End time
 	
-&nbsp;
+<br />
 	
 **REMARKS**
 - Two groups of the same course cannot coincide in the same shift.
@@ -141,8 +142,8 @@ Students:
 <details>
     <summary>CLICK ME TO SEE THE REQUESTED MODIFICATIONS</summary>
      	
-&nbsp;	
-** (0.5 point each) **
+<br />
+	
 1. Clears the primary key from the teacher's table. What do you have to do before?
 2. Create a primary key in teachers that is the first and last name.
 3. Add a field behind the price in the courses' table, indicating the last year in which it was taught. You don't have to be informed.
@@ -152,6 +153,8 @@ Students:
 7. Rename the group's table by class.
 8. Deletes the teacher's table.
 
+
+-(0.5 point each)-	
 </details>
 
  
