@@ -5,6 +5,7 @@
     Author: Ana Polo  Arozamena                                      
 */
 
+
  DROP DATABASE IF EXISTS high_school;
 
 
