@@ -11,13 +11,12 @@
 4. [Problem definition.](#problem-definition)
     1. [Creation of the tables of the DB.](#create)
     2. [Updating the tables to create the foreign key constrains.](#alter)
-	
+
 
 &nbsp;
 <a name="general-info"></a>
 ### 1. General Info
 ***
-
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems*
 
 
@@ -26,17 +25,17 @@
 ### 2. Technologies
 ***
 A list of technologies used within the project:
-*MySQL Version 8.0* 
-    - SQL-DDL: Data Definition Language 
+*MySQL Version 8.0*
+    - SQL-DDL: Data Definition Language.
 
 
 &nbsp;
 <a name="collaboration"></a>
 ### 3. Collaboration
 ***
-*Students:*
+Students:
 - *Haplo35.* 
-- *ErnestoPGH.* 
+- *ErnestoPGH.*
 - *IrvingVqz.*
 
 
@@ -49,10 +48,12 @@ A list of technologies used within the project:
 #
 
 
-📝 **TO DO:** 
+📝 **TO DO:**
 
         1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not. (3 points) 
         2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc. (3 points)
+        3. Save all the orders that you need in the file whose name is **DDL-01-high-school.sql** inside the **DBM02-SQL** directory.
+
 
 
 ⚠️ **WARNING:** 
@@ -138,6 +139,7 @@ A list of technologies used within the project:
 
 👀 **Remember to not forget!**
 - Properly format and document the code.		  
+- Save all the orders that you need in the file whose name is **DDL-02-high-school.sql** inside the **DBM02-SQL** directory.
 
 &nbsp;
 
@@ -146,9 +148,9 @@ A list of technologies used within the project:
      	
 <br />
 	
-        1. Clears the primary key from the teacher's table. What do you have to do before?
-        2. Create a primary key in teachers that is the first and last name.
-        3. Add a field behind the price in the courses' table, indicating the last year in which it was taught. You don't have to be informed.
+        1. Delete the primary key from the teacher's table. What do you have to do?
+        2. Create a primary key in teachers that is formed by the first name and the surname.
+        3. Add a field behind the price column in the courses' table, indicating the last year in which it was taught. It does not have to be informed.
         4. Change the data type of the student's name by adding 5 characters.
         5. Delete a foreign key from one of the tables and recreate it.
         6. Delete a CHECK from a table and recreate it.
@@ -157,5 +159,4 @@ A list of technologies used within the project:
 
         -(0.5 point each)-	
 </details>
-
  
