@@ -5,6 +5,7 @@
     Author: Ana Polo  Arozamena                                      
 */
 
+
 USE high_school;
 
 /*  1. Clear the primary key from the teacher's table. What do you have to do before? */
@@ -20,12 +21,10 @@ ALTER TABLE teachers
     DROP PRIMARY KEY; 
 
 
-
 /*    2. Create a primary key in teachers that is the first and last name. */
 
 ALTER TABLE teachers
     ADD PRIMARY KEY ( teacher_name, surname ); 
-
 
 
 /*    3. Add a field behind the price in the courses' table, indicating the last year in which the course was taught. It does not have to be informed. */
@@ -70,4 +69,15 @@ RENAME TABLE class_groups TO class;
 DROP TABLE IF EXISTS teachers; 
 
 
-/*    I CAN PROVE EVERYTHING */
+
+/*    It is possible to verify that the changes have been made by executing the following commands: */
+
+    /*--- List all the tables in the database */
+    
+SHOW TABLES; 
+
+    /*--- show the DDL that it is needed for creating each table */
+
+SHOW CREATE TABLE students; 
+SHOW CREATE TABLE courses;
+SHOW CREATE TABLE class;
