@@ -52,7 +52,7 @@ Students:
 
         1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not. (3 points) 
         2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc. (3 points)
-        3. Save all the orders that you need in the file whose name is **DDL-01-high-school.sql** inside the **DBM02-SQL** directory.
+        3. Save all the orders that you need in the file whose name is **DDL01_high_school.sql** inside the **DBM02-SQL** directory.
 
 
 
@@ -139,7 +139,7 @@ Students:
 
 👀 **Remember to not forget!**
 - Properly format and document the code.		  
-- Save all the orders that you need in the file whose name is **DDL-02-high-school.sql** inside the **DBM02-SQL** directory.
+- Save all the orders that you need in the file whose name is **DDL02_high_-_school.sql** inside the **DBM02-SQL** directory.
 
 &nbsp;
 
