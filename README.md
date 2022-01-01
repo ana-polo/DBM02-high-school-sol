@@ -2,9 +2,10 @@
 
 ![Logo de Team](https://github.com/ana-polo/DBM02-high-school-sol/blob/main/DBM.gif "Team logo")
 
-
 <a name="top"></a>
+
 ## Table of Contents
+
 1. [General Info.](#general-info)
 2. [Technologies.](#technologies)
 3. [Collaboration.](#collaboration)
@@ -12,41 +13,47 @@
     1. [Creation of the tables of the DB.](#create)
     2. [Updating the tables to create the foreign key constrains.](#alter)
 
-
 &nbsp;
 <a name="general-info"></a>
+
 ### 1. General Info
+
 ***
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems*
 
-
 &nbsp;
 <a name="technologies"></a>
+
 ### 2. Technologies
+
 ***
 A list of technologies used within the project:
 *MySQL Version 8.0*
     - SQL-DDL: Data Definition Language.
 
-
 &nbsp;
 <a name="collaboration"></a>
+
 ### 3. Collaboration
+
 ***
 Students:
-- *Haplo35.* 
+
+- *Haplo35.*
 - *ErnestoPGH.*
 - *IrvingVqz.*
 
-
 &nbsp;
 <a name="problem-definition"></a>
+
 ### 4. Problem definition
+
 ***
 <a name="create"></a>
-#### i. Create a new database called high-school with the following tables in the new database
-#
 
+#### i. Create a new database called high-school with the following tables in the new database
+
+#
 
 📝 **TO DO:**
 
@@ -54,24 +61,22 @@ Students:
         2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc. (3 points)
         3. Save all the orders that you need in the file whose name is **DDL01_high_school.sql** inside the **DBM02-SQL** directory.
 
+⚠️ **WARNING:**
 
-
-⚠️ **WARNING:** 
 - All the operations must be done in the creation of the tables.
 
-
 👀 **Remember to not forget!**
-- Properly format and document the code.
 
+- Properly format and document the code.
 
 &nbsp;
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
 <br />
-	
+ 
 *STUDENT*
-	
+ 
         - The student's academic record number, which in addition to being unique and identifying the student, is composed of 4 letters and 3 digits.        
         - The group to which the student belongs.        
         - The student's NIF.        
@@ -82,9 +87,8 @@ Students:
         - The student's phone number (assume it only has one number) Will not be prefixed +34.
         - Gender, which will be F for women and M for men. Use a constraint to define the set of values that this field can take.
 
-
 *TEACHER*
-	
+ 
         - The official number: Uniquely identifies each one and is formed with 4 digits and 3 letters.
         - The teacher's name.
         - The teacher's last name.
@@ -92,18 +96,16 @@ Students:
         - The teacher's phone (assume you only have one number). Does not have the prefix +34.
         - Field that specifies whether the teacher is interim or not. The vast majority are interim.
         - Maximum number of courses that a teacher can teach.
-   
-    
+
 *COURSE*
-	
+ 
         - Field that identifies the course, consists of 4 letters.
         - Course description.
         - Hours of duration.
         - Course price.
- 
-    
+
 *GROUP*
-	
+ 
         - Field that identifies the group, consists of 4 uppercase letters, a number and a low-ercase letter.
         - Description of the group
         - Course
@@ -113,41 +115,43 @@ Students:
         - End date.
         - Start time.
         - End time
-	
+ 
 <br />
-	
+ 
 **REMARKS**
+
 - Two groups of the same course cannot coincide in the same shift.
 - No course has a higher price of more than € 500 or more than 2000 hours.
 - Each student can only be enrolled in one group.
 - There may be single-day courses.
 - No teacher can teach more than 3 courses.
 
-
 </details>
 
 &nbsp;
 &nbsp;
 <a name="alter"></a>
-#### ii. Updating the tables.
+
+#### ii. Updating the tables
+
 #
 
+⚠️ **WARNING:**
 
-⚠️ **WARNING:** 
 - Neither of these operations can be done in the creation of the tables.
 
-
 👀 **Remember to not forget!**
-- Properly format and document the code.		  
+
+- Properly format and document the code.    
 - Save all the orders that you need in the file whose name is **DDL02_high_-_school.sql** inside the **DBM02-SQL** directory.
 
 &nbsp;
 
 <details>
     <summary>CLICK ME TO SEE THE REQUESTED MODIFICATIONS</summary>
-     	
+      
 <br />
-	
+ 
         1. Delete the primary key from the teacher's table. What do you have to do?
         2. Create a primary key in teachers that is formed by the first name and the surname.
         3. Add a field behind the price column in the courses' table, indicating the last year in which it was taught. It does not have to be informed.
@@ -157,6 +161,5 @@ Students:
         7. Rename the group's table by class.
         8. Deletes the teacher's table.
 
-        -(0.5 point each)-	
+        -(0.5 point each)- 
 </details>
- 
