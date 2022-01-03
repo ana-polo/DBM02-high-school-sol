@@ -4,8 +4,8 @@
 
 ## Table of Contents
 
-    1. DDL: Creation of the tables of the DB.
-    2. DML: Updating the tables to create the foreign key constrains.
+    1. DDL01: Creation of the tables of the DB.
+    2. DDL02: Updating the tables to create the foreign key constrains.
 
 &nbsp;
 
@@ -13,7 +13,7 @@
 
 ***
 
-*Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.*
+Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.
 
 &nbsp;
 
@@ -73,7 +73,7 @@
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
-<br />
+&nbsp;
 
 ##### STUDENT
 
@@ -116,7 +116,7 @@
     -  Start time.
     -  End time
 
-<br />
+&nbsp;
 
 ###### REMARKS
 
@@ -157,7 +157,7 @@
 <details>
     <summary>CLICK ME TO SEE THE REQUESTED MODIFICATIONS</summary>
 
-<br />
+&nbsp;
 
     1. Delete the primary key from the teacher's table. What do you have to do?
     2. Create a primary key in teachers that is formed by the first name and the surname.
